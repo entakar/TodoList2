@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF48F7171CC7CB0900D37241 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF48F7161CC7CB0900D37241 /* AppDelegate.swift */; };
+		EF48F7191CC7CB0900D37241 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF48F7181CC7CB0900D37241 /* ViewController.swift */; };
+		EF48F71C1CC7CB0900D37241 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF48F71A1CC7CB0900D37241 /* Main.storyboard */; };
+		EF48F71E1CC7CB0900D37241 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF48F71D1CC7CB0900D37241 /* Assets.xcassets */; };
+		EF48F7211CC7CB0900D37241 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF48F71F1CC7CB0900D37241 /* LaunchScreen.storyboard */; };
+		EF48F72C1CC7CB0900D37241 /* TodoList2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF48F72B1CC7CB0900D37241 /* TodoList2Tests.swift */; };
+		EF48F7371CC7CB0900D37241 /* TodoList2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF48F7361CC7CB0900D37241 /* TodoList2UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF48F7281CC7CB0900D37241 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF48F70B1CC7CB0900D37241 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF48F7121CC7CB0900D37241;
+			remoteInfo = TodoList2;
+		};
+		EF48F7331CC7CB0900D37241 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF48F70B1CC7CB0900D37241 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF48F7121CC7CB0900D37241;
+			remoteInfo = TodoList2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF48F7131CC7CB0900D37241 /* TodoList2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoList2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF48F7161CC7CB0900D37241 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF48F7181CC7CB0900D37241 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF48F71B1CC7CB0900D37241 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF48F71D1CC7CB0900D37241 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF48F7201CC7CB0900D37241 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF48F7221CC7CB0900D37241 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF48F7271CC7CB0900D37241 /* TodoList2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoList2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF48F72B1CC7CB0900D37241 /* TodoList2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoList2Tests.swift; sourceTree = "<group>"; };
+		EF48F72D1CC7CB0900D37241 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF48F7321CC7CB0900D37241 /* TodoList2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoList2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF48F7361CC7CB0900D37241 /* TodoList2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoList2UITests.swift; sourceTree = "<group>"; };
+		EF48F7381CC7CB0900D37241 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF48F7101CC7CB0900D37241 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF48F7241CC7CB0900D37241 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF48F72F1CC7CB0900D37241 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF48F70A1CC7CB0900D37241 = {
+			isa = PBXGroup;
+			children = (
+				EF48F7151CC7CB0900D37241 /* TodoList2 */,
+				EF48F72A1CC7CB0900D37241 /* TodoList2Tests */,
+				EF48F7351CC7CB0900D37241 /* TodoList2UITests */,
+				EF48F7141CC7CB0900D37241 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF48F7141CC7CB0900D37241 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF48F7131CC7CB0900D37241 /* TodoList2.app */,
+				EF48F7271CC7CB0900D37241 /* TodoList2Tests.xctest */,
+				EF48F7321CC7CB0900D37241 /* TodoList2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF48F7151CC7CB0900D37241 /* TodoList2 */ = {
+			isa = PBXGroup;
+			children = (
+				EF48F7161CC7CB0900D37241 /* AppDelegate.swift */,
+				EF48F7181CC7CB0900D37241 /* ViewController.swift */,
+				EF48F71A1CC7CB0900D37241 /* Main.storyboard */,
+				EF48F71D1CC7CB0900D37241 /* Assets.xcassets */,
+				EF48F71F1CC7CB0900D37241 /* LaunchScreen.storyboard */,
+				EF48F7221CC7CB0900D37241 /* Info.plist */,
+			);
+			path = TodoList2;
+			sourceTree = "<group>";
+		};
+		EF48F72A1CC7CB0900D37241 /* TodoList2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EF48F72B1CC7CB0900D37241 /* TodoList2Tests.swift */,
+				EF48F72D1CC7CB0900D37241 /* Info.plist */,
+			);
+			path = TodoList2Tests;
+			sourceTree = "<group>";
+		};
+		EF48F7351CC7CB0900D37241 /* TodoList2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF48F7361CC7CB0900D37241 /* TodoList2UITests.swift */,
+				EF48F7381CC7CB0900D37241 /* Info.plist */,
+			);
+			path = TodoList2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF48F7121CC7CB0900D37241 /* TodoList2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF48F73B1CC7CB0900D37241 /* Build configuration list for PBXNativeTarget "TodoList2" */;
+			buildPhases = (
+				EF48F70F1CC7CB0900D37241 /* Sources */,
+				EF48F7101CC7CB0900D37241 /* Frameworks */,
+				EF48F7111CC7CB0900D37241 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TodoList2;
+			productName = TodoList2;
+			productReference = EF48F7131CC7CB0900D37241 /* TodoList2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF48F7261CC7CB0900D37241 /* TodoList2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF48F73E1CC7CB0900D37241 /* Build configuration list for PBXNativeTarget "TodoList2Tests" */;
+			buildPhases = (
+				EF48F7231CC7CB0900D37241 /* Sources */,
+				EF48F7241CC7CB0900D37241 /* Frameworks */,
+				EF48F7251CC7CB0900D37241 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF48F7291CC7CB0900D37241 /* PBXTargetDependency */,
+			);
+			name = TodoList2Tests;
+			productName = TodoList2Tests;
+			productReference = EF48F7271CC7CB0900D37241 /* TodoList2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF48F7311CC7CB0900D37241 /* TodoList2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF48F7411CC7CB0900D37241 /* Build configuration list for PBXNativeTarget "TodoList2UITests" */;
+			buildPhases = (
+				EF48F72E1CC7CB0900D37241 /* Sources */,
+				EF48F72F1CC7CB0900D37241 /* Frameworks */,
+				EF48F7301CC7CB0900D37241 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF48F7341CC7CB0900D37241 /* PBXTargetDependency */,
+			);
+			name = TodoList2UITests;
+			productName = TodoList2UITests;
+			productReference = EF48F7321CC7CB0900D37241 /* TodoList2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF48F70B1CC7CB0900D37241 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = tak;
+				TargetAttributes = {
+					EF48F7121CC7CB0900D37241 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 7YKRKJA4VT;
+					};
+					EF48F7261CC7CB0900D37241 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 7YKRKJA4VT;
+						TestTargetID = EF48F7121CC7CB0900D37241;
+					};
+					EF48F7311CC7CB0900D37241 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 7YKRKJA4VT;
+						TestTargetID = EF48F7121CC7CB0900D37241;
+					};
+				};
+			};
+			buildConfigurationList = EF48F70E1CC7CB0900D37241 /* Build configuration list for PBXProject "TodoList2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF48F70A1CC7CB0900D37241;
+			productRefGroup = EF48F7141CC7CB0900D37241 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF48F7121CC7CB0900D37241 /* TodoList2 */,
+				EF48F7261CC7CB0900D37241 /* TodoList2Tests */,
+				EF48F7311CC7CB0900D37241 /* TodoList2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF48F7111CC7CB0900D37241 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF48F7211CC7CB0900D37241 /* LaunchScreen.storyboard in Resources */,
+				EF48F71E1CC7CB0900D37241 /* Assets.xcassets in Resources */,
+				EF48F71C1CC7CB0900D37241 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF48F7251CC7CB0900D37241 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF48F7301CC7CB0900D37241 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF48F70F1CC7CB0900D37241 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF48F7191CC7CB0900D37241 /* ViewController.swift in Sources */,
+				EF48F7171CC7CB0900D37241 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF48F7231CC7CB0900D37241 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF48F72C1CC7CB0900D37241 /* TodoList2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF48F72E1CC7CB0900D37241 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF48F7371CC7CB0900D37241 /* TodoList2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF48F7291CC7CB0900D37241 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF48F7121CC7CB0900D37241 /* TodoList2 */;
+			targetProxy = EF48F7281CC7CB0900D37241 /* PBXContainerItemProxy */;
+		};
+		EF48F7341CC7CB0900D37241 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF48F7121CC7CB0900D37241 /* TodoList2 */;
+			targetProxy = EF48F7331CC7CB0900D37241 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF48F71A1CC7CB0900D37241 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF48F71B1CC7CB0900D37241 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF48F71F1CC7CB0900D37241 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF48F7201CC7CB0900D37241 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF48F7391CC7CB0900D37241 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF48F73A1CC7CB0900D37241 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF48F73C1CC7CB0900D37241 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TodoList2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tak.inc.TodoList2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF48F73D1CC7CB0900D37241 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TodoList2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tak.inc.TodoList2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF48F73F1CC7CB0900D37241 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TodoList2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tak.inc.TodoList2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TodoList2.app/TodoList2";
+			};
+			name = Debug;
+		};
+		EF48F7401CC7CB0900D37241 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TodoList2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tak.inc.TodoList2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TodoList2.app/TodoList2";
+			};
+			name = Release;
+		};
+		EF48F7421CC7CB0900D37241 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TodoList2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tak.inc.TodoList2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TodoList2;
+			};
+			name = Debug;
+		};
+		EF48F7431CC7CB0900D37241 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TodoList2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tak.inc.TodoList2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TodoList2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF48F70E1CC7CB0900D37241 /* Build configuration list for PBXProject "TodoList2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF48F7391CC7CB0900D37241 /* Debug */,
+				EF48F73A1CC7CB0900D37241 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF48F73B1CC7CB0900D37241 /* Build configuration list for PBXNativeTarget "TodoList2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF48F73C1CC7CB0900D37241 /* Debug */,
+				EF48F73D1CC7CB0900D37241 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF48F73E1CC7CB0900D37241 /* Build configuration list for PBXNativeTarget "TodoList2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF48F73F1CC7CB0900D37241 /* Debug */,
+				EF48F7401CC7CB0900D37241 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EF48F7411CC7CB0900D37241 /* Build configuration list for PBXNativeTarget "TodoList2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF48F7421CC7CB0900D37241 /* Debug */,
+				EF48F7431CC7CB0900D37241 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF48F70B1CC7CB0900D37241 /* Project object */;
+}
